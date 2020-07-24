@@ -2,6 +2,8 @@ import React from "react";
 import {connection} from './component/socket'
 import RenderEvent from "./component/RenderEvent";
 
+import { RNContext } from "./component/WNTContext";
+
 
 
 class WTNotifications extends React.Component {
@@ -18,7 +20,9 @@ class WTNotifications extends React.Component {
     render() {
         return (
         <React.Fragment>
-            <RenderEvent {...this.props} />
+            <RNContext.Consumer>
+                {con => <RenderEvent {...this.props} connection={con} />}
+            </RNContext.Consumer>
         </React.Fragment>
         )
     }

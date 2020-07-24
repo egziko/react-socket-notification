@@ -21,7 +21,7 @@ export class Connection {
     listen(event: string, callback?: ListenCallback): void;
 }
 
-export interface WTNotificationsProps {
+interface WTNotificationsProps {
     connection?: boolean;
     prop2?: string;
     prop3?: string;

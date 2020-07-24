@@ -13,7 +13,8 @@ class RenderEvent extends React.PureComponent {
             message: ""
         }
 
-        this.conn = connection.getConnection();
+
+        this.conn = props.connection.getConnection()
 
     }
     
