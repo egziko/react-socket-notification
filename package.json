@@ -1,5 +1,5 @@
 {
-  "name": "witrack-notifications",
+  "name": "react-socket-notification",
   "version": "1.0.1",
   "description": "",
   "main": "dist/index.js",
@@ -8,11 +8,13 @@
     "start": "webpack --watch",
     "build": "webpack"
   },
-  "author": "",
+  "author": "Salim Med. BOUYA <bouyasalim@gmail.com>",
+  "repository": {
+    "url": "https://github.com/egziko/react-socket-notification"
+  },
   "license": "ISC",
   "types": "index.d.ts",
   "dependencies": {
-    "extract-text-webpack-plugin": "^3.0.2",
     "prop-types": "^15.7.2",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
@@ -21,6 +23,7 @@
   "devDependencies": {
     "@babel/core": "^7.10.5",
     "@babel/preset-env": "^7.10.4",
+    "extract-text-webpack-plugin": "^3.0.2",
     "babel-cli": "^6.26.0",
     "babel-core": "^6.26.3",
     "babel-loader": "^8.1.0",
