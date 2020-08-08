@@ -1,6 +1,6 @@
 import Connection from "./Connection";
 
-export const connection = new Connection();
+export const connection = {};//new Connection();
 
 
 
